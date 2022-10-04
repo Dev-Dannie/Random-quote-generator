@@ -1,0 +1,63 @@
+*,::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(27deg, rgb(133, 133, 209),rgb(40, 40, 168),rgb(110, 110, 218));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    width: 100%;
+}
+
+#heading{
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    width: 40%;
+    text-align: center;
+    background: linear-gradient(to right, rgba(192, 164, 4,0.8),rgba(151, 139, 69, 0.7),rgba(165, 163, 163,0.6));
+    color: rgb(19, 19, 11);
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 5% auto;
+    border: 1px solid black;
+    border-radius:3px ;
+}
+
+.content{
+       letter-spacing: 1px;
+       background: black;
+       color: white;
+       width: 60%;
+       height: 18em;
+       margin: 5px auto;
+       padding: 2em 2.25em;
+       border-radius: 10px;
+}
+
+.text{
+    line-height: 1.3em;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+}
+
+.orator{
+    font-size: 1.6em;
+    text-transform: capitalize;
+    margin-bottom: 5%;
+    color: rgb(187, 29, 29);
+}
+
+.content button{
+    padding: 10px 16px;
+    font-size: 1.2rem;
+    background: whitesmoke;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
