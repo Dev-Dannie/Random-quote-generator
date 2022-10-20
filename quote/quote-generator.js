@@ -1,3 +1,4 @@
+// Demo quotes
 const quotes = [
     {
         quote : `"If you want to change the world,
@@ -109,14 +110,16 @@ const quotes = [
 
 const quoteText = document.querySelector('.text')
 const orator = document.querySelector('.orator')
-const quoteBtn = document.getElementById('btn')
+const nextQuoteBtn = document.getElementById('btn')
 
+// set the first quote to appear when the page is loaded
 window.addEventListener('DOMContentLoaded', () =>{
     quoteText.textContent = quotes[11].quote
     orator.innerText = quotes[11].orator
 })
 
-quoteBtn.addEventListener('click', () => {
+// add event listener to the 'Next Quote' button to get new quotes
+nextQuoteBtn.addEventListener('click', () => {
 
     const randomQuote = Math.floor(Math.random() * quotes.length)
 
